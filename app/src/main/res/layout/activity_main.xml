@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.goudou.retrofitdemowyy.MainActivity">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <Button
+                android:id="@+id/btn_get"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="GET请求"/>
+
+            <Button
+                android:id="@+id/btn_query"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="动态配置URL请求"/>
+
+
+            <Button
+                android:id="@+id/btn_post"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="POST请求"/>
+
+        <!--    <Button
+                android:id="@+id/btn_part"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="文件上传请求"/>
+
+
+            <Button
+                android:id="@+id/btn_header"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="消息报头请求"/>-->
+
+
+        </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/tv_netdate"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="网络数据"/>
+
+
+
+</LinearLayout>
